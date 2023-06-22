@@ -4,16 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87210638-50c2-49d7-baa9-97d24c207e20" name="Changes" comment="20.06.2023">
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/C17_BaseUrlHerokuappQueryParam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/C18_Get_TestDataClassKullanimi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/C19_Put_TestDataClassKullanimi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/C21_Post_TestDataKullanimi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/C22_Put_DeSerialization.java" afterDir="false" />
+    <list default="true" id="87210638-50c2-49d7-baa9-97d24c207e20" name="Changes" comment="21.06.2023">
+      <change afterPath="$PROJECT_DIR$/src/test/java/baseUrl/DummyBaseURL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pojos/BookingDatesPOJO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pojos/BookingPOJO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pojos/HerokuappExpBodyPOJO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pojos/JsonPlaceRequestBodyPOJO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/C23_Get_DeSerialization.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/C25_Put_PojoClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/C26_Post_Pojo.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/test/Exercise_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testData/TestDataHerokuapp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testData/TestDataJsonPlace.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testData/TestDataDummy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,23 +55,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.C21_Post_TestDataKullanimi.post01">
-    <configuration name="C17_BaseUrlHerokuappQueryParam.get02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="T113_API" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.C17_BaseUrlHerokuappQueryParam" />
-      <option name="METHOD_NAME" value="get02" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.C25_Put_PojoClass.put01">
     <configuration name="C17_BaseUrlHerokuappQueryParam.get03" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="T113_API" />
       <extension name="coverage">
@@ -133,13 +120,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="C25_Put_PojoClass.put01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="T113_API" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.C25_Put_PojoClass" />
+      <option name="METHOD_NAME" value="put01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.C25_Put_PojoClass.put01" />
         <item itemvalue="JUnit.C21_Post_TestDataKullanimi.post01" />
         <item itemvalue="JUnit.C19_Put_TestDataClassKullanimi.put01" />
         <item itemvalue="JUnit.C18_Get_TestDataClassKullanimi.get01" />
         <item itemvalue="JUnit.C17_BaseUrlHerokuappQueryParam.get03" />
-        <item itemvalue="JUnit.C17_BaseUrlHerokuappQueryParam.get02" />
       </list>
     </recent_temporary>
   </component>
@@ -180,13 +183,21 @@
       <option name="project" value="LOCAL" />
       <updated>1687293604273</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="21.06.2023">
+      <created>1687381483334</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1687381483334</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <MESSAGE value="first c" />
     <MESSAGE value="20.06.2023" />
-    <option name="LAST_COMMIT_MESSAGE" value="20.06.2023" />
+    <MESSAGE value="21.06.2023" />
+    <option name="LAST_COMMIT_MESSAGE" value="21.06.2023" />
   </component>
 </project>
