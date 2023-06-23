@@ -4,19 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87210638-50c2-49d7-baa9-97d24c207e20" name="Changes" comment="21.06.2023">
-      <change afterPath="$PROJECT_DIR$/src/test/java/baseUrl/DummyBaseURL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pojos/BookingDatesPOJO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pojos/BookingPOJO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pojos/HerokuappExpBodyPOJO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pojos/JsonPlaceRequestBodyPOJO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/C23_Get_DeSerialization.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/C25_Put_PojoClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/C26_Post_Pojo.java" afterDir="false" />
+    <list default="true" id="87210638-50c2-49d7-baa9-97d24c207e20" name="Changes" comment="22.06.2023">
+      <change afterPath="$PROJECT_DIR$/src/test/java/pojos/DummyDataPOJO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pojos/DummyExpBodyPOJO.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/test/Exercise_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testData/TestDataDummy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/C26_Post_Pojo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/C26_Post_Pojo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687381483334</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="22.06.2023">
+      <created>1687470395832</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1687470395832</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -198,6 +198,7 @@
     <MESSAGE value="first c" />
     <MESSAGE value="20.06.2023" />
     <MESSAGE value="21.06.2023" />
-    <option name="LAST_COMMIT_MESSAGE" value="21.06.2023" />
+    <MESSAGE value="22.06.2023" />
+    <option name="LAST_COMMIT_MESSAGE" value="22.06.2023" />
   </component>
 </project>
